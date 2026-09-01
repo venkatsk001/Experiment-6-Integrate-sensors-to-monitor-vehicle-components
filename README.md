@@ -26,6 +26,7 @@ o	Output maintenance warnings based on real-time sensor data analysis.
 •	Graphs help visualize component performance over time.
 
 ## PROGRAM
+```
 clear; clc; close all;
 
 %% Simulated Time (100 samples)
@@ -80,6 +81,11 @@ else
     disp('✅ All systems are operating within safe limits.');
 end
 
+```
+## OUTPUT
+<img width="697" height="625" alt="image" src="https://github.com/user-attachments/assets/d0404546-e9b4-408a-bae5-974604639a10" />
+
+
 
 
  
@@ -87,7 +93,6 @@ end
 ✅ The MATLAB simulation successfully predicts maintenance needs in an electric vehicle.
 ✅ The system detects potential failures in battery, motor, and brakes.
 ✅ Graphical analysis provides a clear view of component health.
-<img width="782" height="702" alt="image" src="https://github.com/user-attachments/assets/f27648b3-8996-4587-aab1-2d6e9d575c01" />
  
 
 
